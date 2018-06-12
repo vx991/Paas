@@ -1,10 +1,10 @@
 version: 0.0
-os: windows
+os: linux
 files:
   - source: /Content
-    destination: C:\inetpub\wwwroot
+    destination: /home/soliver
 hooks:
   BeforeInstall: 
-    - location: ./BeforeInstall.ps1
+    - location:
   AfterInstall:
-    - location: ./AfterInstall.ps1 
+    - location:
