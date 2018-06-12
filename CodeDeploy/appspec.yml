@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /Content
+    destination: /home/soliver
+hooks:
+  BeforeInstall: 
+    - location:
+  AfterInstall:
+    - location:
