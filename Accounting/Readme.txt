@@ -1,1 +1,0 @@
-This folder maintains the scripts and configuration files required for deploying Accounting project
